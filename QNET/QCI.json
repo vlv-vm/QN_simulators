@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "name": "IRB",
+      "type": "TrustedRepeaterNode",
+      "latitude": 39.9345,
+      "longitude": 116.3525
+    },
+    {
+      "name": "IF",
+      "type": "EndNode",
+      "latitude": 39.95,
+      "longitude": 116.3109
+    },
+    {
+      "name": "FER",
+      "type": "EndNode",
+      "latitude": 39.9149,
+      "longitude": 116.3174
+    },
+    {
+      "name": "CARNET",
+      "type": "EndNode",
+      "latitude": 39.9048,
+      "longitude": 116.3459
+    },
+    {
+      "name": "OIV",
+      "type": "EndNode",
+      "latitude": 39.9094,
+      "longitude": 116.3752
+    },
+    {
+      "name": "SRCE",
+      "type": "EndNode",
+      "latitude": 39.9227,
+      "longitude": 116.3899
+    },
+    {
+      "name": "HRZOO_1",
+      "type": "EndNode",
+      "latitude": 39.9336,
+      "longitude": 116.3991
+    },
+    {
+      "name": "HRZOO_2",
+      "type": "EndNode",
+      "latitude": 39.9453,
+      "longitude": 116.3973
+    },
+    {
+      "name": "FPZ",
+      "type": "EndNode",
+      "latitude": 39.9648,
+      "longitude": 116.3504
+    },
+    {
+      "name": "TN1",
+      "type": "TrustedRepeaterNode",
+      "latitude": 39.9336,
+      "longitude": 116.5424
+    },
+    {
+      "name": "Osijek",
+      "type": "TrustedRepeaterNode",
+      "latitude": 39.9149,
+      "longitude": 116.7399
+    },
+    {
+      "name": "TN2",
+      "type": "TrustedRepeaterNode",
+      "latitude": 39.8143,
+      "longitude": 116.2907
+    },
+    {
+      "name": "Split",
+      "type": "TrustedRepeaterNode",
+      "latitude": 39.7153,
+      "longitude": 116.4065
+    },
+    {
+      "name": "Čvor_1",
+      "type": "EndNode",
+      "latitude": 39.7222,
+      "longitude": 116.4279
+    }
+  ],
+  "links": [
+    {
+      "node1": "IRB",
+      "node2": "FPZ",
+      "cchannel": {"distance":  7800},
+      "qchannel": {"distance":  7800}
+    },
+    {
+      "node1": "IRB",
+      "node2": "CARNET",
+      "cchannel": {"distance":  7500},
+      "qchannel": {"distance":  7500}
+    },
+    {
+      "node1": "IRB",
+      "node2": "IF",
+      "cchannel": {"distance":  7000},
+      "qchannel": {"distance":  7000}
+    },
+    {
+      "node1": "IRB",
+      "node2": "OIV",
+      "cchannel": {"distance":  7200},
+      "qchannel": {"distance":  7200}
+    },
+    {
+      "node1": "IRB",
+      "node2": "HRZOO_1",
+      "cchannel": {"distance":  7800},
+      "qchannel": {"distance":  7800}
+    },
+    {
+      "node1": "IRB",
+      "node2": "HRZOO_2",
+      "cchannel": {"distance":  7800},
+      "qchannel": {"distance":  7800}
+    },
+    {
+      "node1": "IRB",
+      "node2": "SRCE",
+      "cchannel": {"distance":  6800},
+      "qchannel": {"distance":  6800}
+    },
+    {
+      "node1": "IRB",
+      "node2": "TN1",
+      "cchannel": {"distance":  15600},
+      "qchannel": {"distance":  15600}
+    },
+    {
+      "node1": "IRB",
+      "node2": "TN2",
+      "cchannel": {"distance":  15600},
+      "qchannel": {"distance":  15600}
+    },
+    {
+      "node1": "TN1",
+      "node2": "Osijek",
+      "cchannel": {"distance":  7800},
+      "qchannel": {"distance":  7800}
+    },
+    {
+      "node1": "TN2",
+      "node2": "Split",
+      "cchannel": {"distance":  7800},
+      "qchannel": {"distance":  7800}
+    },
+    {
+      "node1": "IRB",
+      "node2": "FER",
+      "cchannel": {"distance":  7800},
+      "qchannel": {"distance":  7800}
+    },
+    {
+      "node1": "Split",
+      "node2": "Čvor_1",
+      "cchannel": {"distance":  7800},
+      "qchannel": {"distance":  7800}
+    }
+  ]
+}
+
